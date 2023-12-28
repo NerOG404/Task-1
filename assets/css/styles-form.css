@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Indie+Flower&family=Inter:wght@200;400;600;700&family=Lato:wght@300;400&family=Poppins:wght@200;300;400&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, rgb(224, 37, 109), rgb(254, 78, 48));
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.survey-form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.survey-form h1 {
+    letter-spacing: .5px;
+}
+
+.head-h1 {
+    font-size: 50px;
+}
+
+.parag {
+    font-size: 20px;
+}
+
+.survey-form .head {
+    color: white;
+}
+
+.form {
+    background-color: white;
+    width: 60vw;
+    margin: 20px auto 100px auto;
+    padding: 20px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+label {
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#name, #email, #age {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+.side {
+    margin-right: 10px;
+}
+
+textarea {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: 600;
+    border: 2.5px solid rgb(254, 78, 48);
+    color: rgb(254, 78, 48);
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.submit:hover {
+    border: 2.5px solid rgb(254, 78, 48);
+    background-color: rgb(254, 78, 48);
+    color: white;
+}
