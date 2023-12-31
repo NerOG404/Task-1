@@ -33,7 +33,7 @@ if (userName !== '' && email !== '' && age !== '' && role !== '' && feature !== 
     for(const key in data){
         console.log(`${key}: ${data[key]}`)};
 
-    return alert(`Nama : ${userName}\neEmail : ${email}\nAge : ${age}\nYour current role : ${role}\nWould you recommend MyWeb to a friend : ${radio}\nWhat is your favorite feature : ${feature}\nWhat would you like to see improved : ${getChecked()}\nAny comments : ${area}`);
+    return alert(`Nama : ${userName}\nEmail : ${email}\nAge : ${age}\nYour current role : ${role}\nWould you recommend MyWeb to a friend : ${radio}\nWhat is your favorite feature : ${feature}\nWhat would you like to see improved : ${getChecked()}\nAny comments : ${area}`);
 } else if (userName === '' || email === '' || age === '' || role === '' || feature === '' || area === '' || radio === '') {
     return alert('All input fields must be not empty');
 }
