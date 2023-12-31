@@ -28,7 +28,7 @@ const data = {
 
 if (userName !== '' && email !== '' && age !== '' && role !== '' && feature !== '' && area !== '' && radio !== '') {
     let a = document.createElement('a');
-    a.href = `mailto:${email}?subject=${feature}&body=${userName}`
+    a.href = `mailto:${email}?subject=${feature}&body=${area}`
     a.click(submitData)
     for(const key in data){
         console.log(`${key}: ${data[key]}`)};
