@@ -103,7 +103,7 @@ function addBlog(event) {
 
     for (let index = 0; index < blogs.length; index++) {
       html += `
-      <a href="news-blog.html">
+      <a href="new-project.html">
         <div id="card" class="blog-list">
             <img class="picture-blog" src="${blogs[index].image}" alt="picture">
             <h3>${blogs[index].projectName}</h3>
