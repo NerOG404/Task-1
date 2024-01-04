@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Indie+Flower&family=Inter:wght@200;400;600;700&family=Lato:wght@300;400&family=Poppins:wght@200;300;400&family=Raleway:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to top, rgb(224, 37, 109), rgb(254, 78, 48));
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.judul {
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.photo {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.icon {
+    width: 30%;
+    font-size: 20px;
+}
+
+.main ul, li {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+svg {
+    margin-right: 10px;
+}
+
+.main {
+    background-color: white;
+    width: 60vw;
+    height: 100%;
+    margin: 10px auto 30px auto;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.main-group {
+    display: flex;
+    justify-content: center;
+}
